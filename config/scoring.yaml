@@ -1,0 +1,14 @@
+# weights
+w_confidence: 0.20
+w_price_gap: 0.55
+w_brand_signal: 0.15
+w_category: 0.10
+
+# bounds
+min_valid_price: 10
+max_valid_price: 5000
+
+# defaults
+default_anchor_multiplier: 1.20
+brand_bonus_known: 0.10
+brand_penalty_unknown: -0.05

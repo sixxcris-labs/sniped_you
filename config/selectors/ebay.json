@@ -1,0 +1,8 @@
+﻿{
+  "listing_container": ["li.s-item", "li.s-card"],
+  "title": ["h3.s-item__title", "span[role='heading']", ".s-item__title"],
+  "price": [".s-item__price", ".s-card__price"],
+  "url": ["a.s-item__link", "a.su-link"],
+  "image": ["img.s-item__image-img", "img.s-item__image", "img.s-card__image"],
+  "location": [".s-item__location", ".s-item__itemLocation"]
+}

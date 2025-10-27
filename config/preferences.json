@@ -1,0 +1,9 @@
+
+{
+  "categories": ["road bike", "sneakers", "laptop"],
+  "brands": ["schwinn", "specialized", "nike"],
+  "price_min": 50,
+  "price_max": 800,
+  "score_threshold": 2,
+  "location": "Houston"
+}

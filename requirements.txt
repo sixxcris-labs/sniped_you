@@ -1,0 +1,46 @@
+# --- Core Web Framework ---
+fastapi>=0.95
+uvicorn>=0.21
+sqlmodel>=0.0.8
+python-multipart>=0.0.6
+pydantic>=1.10
+pydantic-settings>=2.0
+python-dotenv>=1.0
+requests>=2.31
+httpx>=0.24
+
+# --- Async / Networking ---
+aiohttp>=3.9.5
+async-timeout>=4.0.3
+
+# --- OCR / Vision ---
+pillow>=10.0
+pytesseract>=0.3.10
+easyocr>=1.7.1
+paddleocr>=2.7.3
+torch>=2.3.0
+
+# --- LLM / AI ---
+openai>=1.30.2
+tiktoken>=0.7.0
+
+# --- Web Automation / Parsing ---
+playwright>=1.46.0
+beautifulsoup4>=4.12.3
+lxml>=5.2.1
+
+# --- Data / Utils ---
+numpy>=1.26.4
+pandas>=2.2.2
+
+# --- Testing ---
+pytest>=8.2.2
+pytest-asyncio>=0.21
+pytrends>=4.9.2
+
+# --- Database Drivers ---
+psycopg2-binary>=2.9.9
+
+# --- Environment Management ---
+python-dotenv>=1.0.1
+aiofiles>=23.2.1

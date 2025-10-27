@@ -1,0 +1,55 @@
+﻿# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.template
+
+# --- Local Configs & Secrets ---
+settings.yaml
+webhook_secrets.yaml
+config/api_keys.yaml
+config/webhook_secrets.yaml
+config/settings.yaml
+fb_storage_state.json
+
+# --- Data & Logs ---
+data/
+logs/
+*.log
+*.sqlite3
+*.db
+
+# --- Playwright ---
+playwright-report/
+test-results/
+screenshots/
+
+# --- Docker ---
+*.pid
+*.tar
+
+# --- IDE / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Browser Storage & Cookies ---
+data/browser_storage/*.json
+data/facebook_marketplace/screenshots/*
+data/facebook_marketplace/storage_state.json
+data/facebook_marketplace/cookies.json
+
+# --- Backups ---
+*.bak
+*.old
+*.tmp
+*.backup

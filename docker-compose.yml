@@ -1,0 +1,25 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app                # mount entire project
+      - ./data:/app/data      # keep data mapped persistently
+    env_file:
+      - .env
+    depends_on:
+      - db
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      # Uses values from .env if present; otherwise defaults match db.py
+      POSTGRES_DB: ${DB_NAME:-sniped}
+      POSTGRES_USER: ${DB_USER:-sniper}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-sniped_pass}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:

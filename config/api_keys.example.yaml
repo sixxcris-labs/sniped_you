@@ -1,0 +1,23 @@
+###############################################
+# API keys and third-party credentials (EXAMPLE)
+#
+# Copy this file to config/api_keys.yaml and fill in values.
+# Never commit the filled-in file.
+###############################################
+
+# Example: eBay API
+ebay:
+  app_id: "YOUR_EBAY_APP_ID"
+  cert_id: "YOUR_EBAY_CERT_ID"
+  dev_id: "YOUR_EBAY_DEV_ID"
+
+# Example: Google Trends (if applicable)
+google_trends:
+  api_key: "YOUR_GOOGLE_TRENDS_KEY"
+
+# Example: Reddit (if applicable)
+reddit:
+  client_id: "YOUR_REDDIT_CLIENT_ID"
+  client_secret: "YOUR_REDDIT_CLIENT_SECRET"
+  user_agent: "snipped_you/1.0 by <you>"
+

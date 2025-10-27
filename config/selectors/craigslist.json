@@ -1,0 +1,26 @@
+{
+  "listing_container": [
+    "div.cl-search-result"
+  ],
+  "title": [
+    "a.posting-title",
+    "a.text-only.posting-title"
+  ],
+  "price": [
+    "span.priceinfo",
+    "span[class*='price']"
+  ],
+  "location": [
+    "div.meta > span.result-hood",
+    "div.cl-search-result div.location",
+    "div.meta span:nth-of-type(2)"
+  ],
+  "time": [
+    "div.meta",
+    "span[class*='time']"
+  ],
+  "image": [
+    "div.cl-search-result img",
+    "img"
+  ]
+}
